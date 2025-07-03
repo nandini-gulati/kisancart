@@ -24,16 +24,6 @@ KisanCart is a full-stack web application designed to **bridge the gap between f
 | Backend      | Node.js, Express.js         |
 | Database     | MongoDB (via MongoDB Atlas) |
 | Authentication | Firebase Auth (Optional)   |
-| Image Upload | Cloudinary (Optional)       |
-| Hosting      | Vercel (Frontend), Render/Railway (Backend) |
-
----
-
-## 📸 Screenshots (Add after building UI)
-
-- Farmer Dashboard
-- Add Produce Form
-- Buyer Product Grid
-- WhatsApp Contact Button
+| Hosting      | Vercel (Frontend)
 
 ---
