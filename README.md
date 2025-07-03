@@ -42,3 +42,18 @@ This app is ideal as a real-world project to showcase your frontend development 
 | Hosting      | Vercel (Frontend)
 
 ---
+Screesnshots
+<img width="1440" alt="Screenshot 2025-07-03 at 12 19 56 PM" src="https://github.com/user-attachments/assets/ade14901-5429-42b4-8861-0a0b39fdaa53" />
+<img width="1440" alt="Screenshot 2025-07-03 at 12 20 27 PM" src="https://github.com/user-attachments/assets/2a84fc0f-01f2-40d2-8e53-78d24f886780" />
+<img width="1440" alt="Screenshot 2025-07-03 at 12 20 55 PM" src="https://github.com/user-attachments/assets/c0df17f7-e8e0-4bcd-ac69-6904014c744f" />
+<img width="1440" alt="Screenshot 2025-07-03 at 12 21 25 PM" src="https://github.com/user-attachments/assets/d5e76175-c8e9-4a14-a377-7188efa8bbde" />
+<img width="1440" alt="Screenshot 2025-07-03 at 12 21 42 PM" src="https://github.com/user-attachments/assets/360439f2-6877-4cc1-b583-0be33860e2ca" />
+<img width="1440" alt="Screenshot 2025-07-03 at 12 22 08 PM" src="https://github.com/user-attachments/assets/072e5024-100d-4e61-8123-d8c4fe7c951a" />
+
+
+
+
+
+
+
+
