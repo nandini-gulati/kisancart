@@ -1,70 +1,39 @@
-# React + TypeScript + Vite
+# 🌾 KisanCart - Empowering Indian Farmers Through Digital Markets
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KisanCart is a full-stack web application designed to **bridge the gap between farmers and buyers**. It allows farmers to upload their fresh produce directly and enables buyers to discover and contact them easily — no middlemen, no commission.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 👨‍🌾 Farmer Side
+- Register/Login using phone, name, and location
+- Upload produce (crop name, quantity, price/kg, photo)
+- Manage your products from a personal dashboard
 
-## Expanding the ESLint configuration
+### 🛍️ Buyer Side
+- Browse all products listed by farmers
+- Filter/search crops by name or location
+- Contact farmers directly via WhatsApp (free)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ⚙️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+| Layer        | Technology Used             |
+|--------------|-----------------------------|
+| Frontend     | React.js, Tailwind CSS / Bootstrap |
+| Backend      | Node.js, Express.js         |
+| Database     | MongoDB (via MongoDB Atlas) |
+| Authentication | Firebase Auth (Optional)   |
+| Image Upload | Cloudinary (Optional)       |
+| Hosting      | Vercel (Frontend), Render/Railway (Backend) |
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📸 Screenshots (Add after building UI)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Farmer Dashboard
+- Add Produce Form
+- Buyer Product Grid
+- WhatsApp Contact Button
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# kisancart
+---
