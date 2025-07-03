@@ -1,6 +1,21 @@
 # 🌾 KisanCart - Empowering Indian Farmers Through Digital Markets
 
-KisanCart is a full-stack web application designed to **bridge the gap between farmers and buyers**. It allows farmers to upload their fresh produce directly and enables buyers to discover and contact them easily — no middlemen, no commission.
+KisanCart is a web application designed to empower farmers by providing them a direct-to-customer platform to sell fresh produce online. Built with simplicity and accessibility in mind, this app eliminates the need for middlemen, ensuring that farmers get fair prices and customers receive fresh, farm-to-table products.
+
+It aims to bridge the gap between rural producers and urban buyers by offering a user-friendly, responsive, and efficient e-commerce solution for the agricultural sector.
+
+🔍 Key Highlights:
+🧑‍🌾 Farmer Listings: Farmers can add their products with name, image, quantity, and price.
+
+🛒 Customer View: Customers can browse, filter, and add items to a cart.
+
+📦 Cart Checkout: Simulates a checkout experience with total price calculation.
+
+📱 Mobile Responsive: Smooth experience across devices.
+
+☁️ Hosted on Vercel: Fast and globally accessible deployment.
+
+This app is ideal as a real-world project to showcase your frontend development skills using React, JSX, state management, and component architecture, while solving a genuine problem in India's agriculture ecosystem.
 
 ## 🚀 Features
 
